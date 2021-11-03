@@ -9,7 +9,7 @@ nav {
   justify-content:space-between; 
   align-items: center;
   padding: 1rem 2rem;
-  background: #5f45bb; 
+  background: #836bdc; 
 }
 
 nav ul {
@@ -116,7 +116,7 @@ p {
     background-image: url("../images/mexico.jpg");
     background-position: center;
     background-size: cover;
-    opacity: 0.2;
+    opacity: 0.5;
     position: fixed;
 }
 
