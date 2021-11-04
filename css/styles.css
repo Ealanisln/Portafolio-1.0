@@ -1,4 +1,30 @@
 /* Base */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content:space-between; 
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #836bdc; 
+}
+
+nav ul {
+  display: flex;
+  list-style: none; 
+}
+
+nav li {
+  padding-left: 1rem; 
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff
+}
 
 html {
     background-color: #5f45bb;
@@ -90,7 +116,7 @@ p {
     background-image: url("../images/mexico.jpg");
     background-position: center;
     background-size: cover;
-    opacity: 0.2;
+    opacity: 0.5;
     position: fixed;
 }
 
